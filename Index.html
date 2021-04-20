@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Lacroix - Portfolio 2021</title>
+    <link href="CSS/Index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <section id="Logo_Entree">
+            <img id="Logo_desktop" src="IMG/LOGOS/NB/Logo_entree_NB.svg" alt="Kevin_Lacroix">
+            <br><span id="span_desktop">(…Je fais du code, les lignes sur les ordinateurs…)</span>
+        </section>
+
+        <section id="Logo_Entree_Mobile">
+           
+           
+        </section>
+
+        <section id="Hero_description">
+            <div>
+                <h1>LANGUAGES FRONT</h1>
+                <span class="Description">Html, Css, Javascript</span>
+            </div>
+            <div>
+                <h1>FRAMEWORK REACT.js</h1>
+                <span class="Description">Création d'interface utilisateur</span>
+            </div>
+            <div>
+                <h1>CREATIVE DEVELOPER</h1>
+                <span class="Description">Animation Css, Javascript<br>UX/UI</span>
+            </div>
+        </section>
+
+        <section>
+            <a href="#main"><img src="IMG/LOGOS/NB/Souris_entree_NB.svg" alt="Scroll-Down"></a>
+        </section>
+        
+    </header>
+
+    <main id="main">
+        
+            <div>
+                <a class="Hidden_Mobile" href="Index.html"><img src="IMG/LOGOS/NB/Logo_acceuil_NB.svg" alt="Logo"></a>
+                <a class="Hidden_Mobile" onclick="darkMode()" ><img src="IMG/LOGOS/NB/Oeil_NB.svg" alt="Light_Mode"></a>
+                <a class="Hidden_Desktop" href="Index.html"><img src="IMG/LOGOS/NB/Logo_Phone_NB.svg" alt="Kevin_Lacroix"></a>
+                <a class="Hidden_Desktop" onclick="darkMode()"><img src="IMG/LOGOS/NB/Oeil_Phone.svg" alt="Oeil_phone"></a>
+                <div class="bar"></div>
+            </div>
+
+            <section id="Skills">
+
+                <section id="Hero_description">
+                    <div id="Front">
+                        <h1>LANGUAGES FRONT</h1>
+                        <span class="Description">Html, Css, Javascript</span>
+                    </div>
+                    <div id="React">
+                        <h1>FRAMEWORK REACT.js</h1>
+                        <span class="Description">Création d'interface utilisateur</span>
+                    </div>
+                    <div id="Creative_Developer">
+                        <h1>CREATIVE DEVELOPER</h1>
+                        <span class="Description">Animation Css, Javascript<br>UX/UI</span>
+                    </div>
+                </section>
+            </section>
+
+            <div class="bar"></div>
+
+            <section id="Menu-items">
+                <div class="Hidden_Mobile">
+                    <a class="margin_items" id="Works_items" href="/Works"><img src="IMG/LOGOS/NB/Works_NB.svg" alt="Works"></a>
+                    <br>
+                    <span>(Ce magnifique portfolio en est déjà un)</span>
+                </div>
+                <a class="margin_items Hidden_Mobile" href="./HTML/About.html"><img src="IMG/LOGOS/NB/About_NB.svg" alt="About"></a>
+                <a class="margin_items Hidden_Mobile" href="/Callme"><img src="IMG/LOGOS/NB/CallMe_NB.svg" alt="Call me :)"></a>
+   
+                <a class="margin_items Hidden_Desktop" id="Works_items" href="/Works"><img src="IMG/LOGOS/NB/Works_Mobile.svg" alt="Works"></a>
+                <a class="margin_items Hidden_Desktop" href="./HTML/About.html"><img src="IMG/LOGOS/NB/About_Mobile.svg" alt="About"></a>
+                <a class="margin_items Hidden_Desktop" href="/Callme"><img src="IMG/LOGOS/NB/Callme_Mobile.svg" alt="Call me :)"></a>
+            </section>
+        
+
+        <footer>
+
+            <div class="bar"></div>
+            <section id="Footer_group">
+                <section id="Works_Footer">
+                    <h2>Works</h2>
+                    <ul>
+                        <a href="#"><li>FRONT-END</li></a>
+                        <a href="#"><li>DESIGN</li></a>
+                        <a href="#"><li>PYTHON</li></a>
+                    </ul>
+                </section>
+
+                <section id="About_Footer">
+                    <h2>About</h2>
+                </section>
+
+                <section id="Contact_Footer">
+                    <h2>Contact</h2>
+                    <ul>
+                        <a href="https://www.linkedin.com/in/kevin-lacroix/"><li>LINKEDIN</li></a>
+                        <a href="https://github.com/KLacroix-Hub"><li>GITHUB</li></a>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+    </main>
+    
+<script type="text/javascript" src="JS/Scroll_smooth.js"></script>
+<script>
+    function darkMode() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    margin:0;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+main{
+    height: 100vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#Logo_Entree{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+#Hero_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Description{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 0;
+    
+}
+
+#main > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar{
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: relative;
+    top: 28.5px;
+}
+
+#Menu-items{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 90px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#Menu-items > div > span{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+footer{
+    position: relative;
+    top: -50px;
+    margin-bottom: -10px;
+}
+
+
+footer > div{
+    top: 0px !important;
+    
+}
+
+ul{
+    list-style: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#Footer_group{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#About_Footer{
+    margin-left: 117px;
+    margin-right: 117px;
+}
+
+#Logo_Entree_Mobile{
+    display: none;
+}
+@media (min-width:1024px) {
+    
+
+.Hidden_Desktop{
+    display: none !important;
+}
+main > .bar{
+    display: none !important;
+}
+}
+
+#Skills{
+    display: none;
+}
+
+
+
+@media (max-width: 576px) {
+
+       header{
+           display: none;
+        }
+       
+       main{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+       .Hidden_Mobile{
+           display: none;
+        }
+
+       .Hidden_Desktop{
+           display: flex;
+           margin-left: 29px;
+           margin-right: 29px;
+        }
+
+        #About_Footer{
+            margin-left: 49px;
+            margin-right: 60px;
+        }
+
+        #Footer_group{
+
+            justify-content: center;
+        }
+
+        #Skills{
+            display: flex;
+            overflow: hidden;
+            margin-bottom: -130px;
+            margin-top: -70px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        h1{
+            font-size: 17px;
+        }
+
+        .Description{
+            font-size: 17px;
+        }
+
+        #React{
+            width: 100%;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        #Front{
+            width: 300px;
+        }
+
+        #Creative_Developer{
+            width: 300px;
+        }
+    
+        #Hero_description{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            animation: defilement-rtl 8s infinite linear;
+        }
+
+        @keyframes defilement-rtl {
+            0% {
+                transform: translateX(62%);
+              }
+              100% {
+                transform: translateX(-100%);
+          }
+
+}}
