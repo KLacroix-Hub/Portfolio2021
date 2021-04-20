@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="58" viewBox="0 0 76 58">
+  <g id="Groupe_8" data-name="Groupe 8" transform="translate(-682 -924)">
+    <g id="Groupe_6" data-name="Groupe 6" transform="translate(31)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="42" height="58" rx="21" transform="translate(651 924)" fill="#fff"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="10" height="21" rx="5" transform="translate(667 930)"/>
+      <path id="Tracé_49" data-name="Tracé 49" d="M3,0A3,3,0,1,1,0,3,3,3,0,0,1,3,0Z" transform="translate(669 933)" fill="#fff"/>
+    </g>
+    <g id="Groupe_5" data-name="Groupe 5" transform="translate(40 -1.75)">
+      <line id="Ligne_3" data-name="Ligne 3" y2="35" transform="translate(710.5 936.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <path id="Polygone_1" data-name="Polygone 1" d="M6.652,1.357a1,1,0,0,1,1.7,0l5.7,9.113A1,1,0,0,1,13.2,12H1.8a1,1,0,0,1-.848-1.53Z" transform="translate(718 973) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

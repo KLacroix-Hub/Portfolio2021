@@ -1,0 +1,256 @@
+body{
+    margin: 0 120px 0 120px;
+    
+}
+
+header{
+    margin-top: 0;
+}
+
+/* Ajout de la typographie Trash-Bold */
+@font-face {
+    font-family: Trash-bold;
+    src: url(../FONTS/Trash-Bold.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+/* Ajout de la typographie Trash-Medium */
+@font-face {
+    font-family: Trash-medium;
+    src: url(../FONTS/Trash-Medium.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+/* Ajout de la typographie Trash-Regular */
+@font-face {
+    font-family: Trash-regular;
+    src: url(../FONTS/Trash-Regular.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+/* Ajout de la typographie Trash-Light */
+@font-face {
+    font-family: Trash-Light;
+    src: url(../FONTS/Trash-Light.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+/* Ajout de la typographie Didot-bold */
+@font-face {
+    font-family: Didot-bold;
+    src: url(../FONTS/Didot-Bold.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+/* Ajout de la typographie Didot-italic */
+@font-face {
+    font-family: Didot-italic;
+    src: url(../FONTS/Didot-Italic.ttf) format("truetype");
+    font-weight: Bold;
+}
+
+h1{
+
+    font-family:Trash-medium;
+    font-size: 64pt;
+    
+}
+
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 59px;
+
+}
+
+header > h1{
+
+    margin-bottom: 135px;
+}
+
+.Connexion{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Txt-Connexion {
+
+    font-family: Didot-bold, serif;
+    font-size: 36px;
+    color: black;
+
+}
+
+.Txt-New{
+
+    font-family: Didot-italic, serif;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+#Connect{
+    width: 563px;
+    height: 622px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.Connexion-margin{
+
+    margin-left: 105px;
+    margin-right: 106px;
+}
+
+#bkg-connexion{
+    
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    left: -50px;
+    top: -622px;
+
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Trash-Light, sans-serif;
+    font-size: 24px;
+    line-height: 50px;
+    color: #8C8C8C;
+
+}
+
+.bouton-generaux{
+
+    position: relative;
+    top: 20px;
+
+}
+
+.Login{
+
+    width: 100%;
+    height: 69px;
+    background-color: #C900FF;
+    border-radius: 34.5px;
+    border-color: #C900FF;
+    font-family: Trash-regular;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.reseaux{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.Facebook{
+
+    width: 169px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: Trash-regular;
+    text-align: center;
+    font-size:18pt;
+    border-color:black;
+    border: solid 1px;
+    border-radius:34.5px;
+    
+}
+
+.Google{
+
+    width: 169px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: Trash-regular;
+    text-align: center;
+    font-size:18pt;
+    border-color:black;
+    border : solid 1px;
+    border-radius:34.5px;
+}
+
+.Mdp-oublie{
+
+    font-family: Trash-Light, sans-serif;
+}
+
+.Mdp-recup{
+
+    font-family: Trash-Bold, sans-serif;
+    color: #C900FF;
+}
+
+#smiley1{
+
+    width: 7%;
+    position: absolute;
+    top: 760px;
+    left: 600px;
+
+}
+
+#smiley2{
+    
+    width: 7%;
+    position: absolute;
+    top: 210px;
+
+}
+
+h2{
+
+    font-family: Trash-Medium, sans-serif;
+    font-size: 55pt;
+    letter-spacing:-4pt;
+    line-height: 0.9;
+    position: relative;
+    top: 30px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.txt_description{
+
+    font-family: Trash-regular;
+    font-size: 18pt;
+}
+
+.img-odeur{
+
+    position: relative;
+    top: -400px;
+    right: 90px;
+    z-index: -2;
+
+}
+
+a{
+    text-decoration: none;
+}

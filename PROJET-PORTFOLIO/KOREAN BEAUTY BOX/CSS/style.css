@@ -1,0 +1,78 @@
+
+/* Regular : font-family: 'Lato', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* 
+
+Couleurs : 
+
+Rose clair : #ffcccc
+Rose foncé : #ffc1b6
+Jaune : #fee3c8
+Degradé : #ffc1b6 to #ffecd2
+
+*/
+
+body{
+
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+@font-face {
+    font-family: Strawberry-blossom;
+    src: local("Strawberry-blossom"),
+         url(../Strawberry-blossom.ttf),
+         url(../Strawberry-blossom.otf);
+    font-weight: bold;
+  }
+
+h1{
+
+    font-family: Strawberry-blossom;
+    font-size: 160px;
+    color: #5C5C5C;
+
+}
+
+h2{
+
+    font-family: 'Playfair Display Light', serif;
+    font-weight: lighter;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+
+    font-family: 'Lato', sans-serif;
+}
+
+.Header-logo{
+
+    font-family: 'Playfair Display Bold', serif;
+    color: black;
+    font-size: 50px;
+}
+
+.menu-header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.lien-menu{
+   list-style: none;
+}
